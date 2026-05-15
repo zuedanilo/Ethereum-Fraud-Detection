@@ -1,5 +1,5 @@
 # Ethereum Fraud Detection Capstone Script
-# Author: edX Capstone Project
+# Author: "Danilo Sue Zambrano"
 # Purpose: Reproducible fraud detection workflow for the Kaggle Ethereum
 # transaction_dataset.csv using tidymodels, SMOTE, Random Forest, and XGBoost.
 
@@ -44,8 +44,8 @@ data_path <- file.path("data", "transaction_dataset.csv")
 # If the URL is temporarily unavailable, the script falls back to the local
 # data/transaction_dataset.csv file, which is recommended for the final hand-in.
 dataset_url <- paste0(
-  "https://raw.githubusercontent.com/Abhaykumar04/",
-  "ETHEREUM_FRAUD_DETECTION/main/transaction_dataset.csv"
+  "https://raw.githubusercontent.com/zuedanilo/",
+  "Ethereum-Fraud-Detection/main/data/transaction_dataset.csv"
 )
 
 if (!file.exists(data_path)) {
