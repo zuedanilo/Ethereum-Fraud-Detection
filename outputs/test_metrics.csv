@@ -1,0 +1,9 @@
+.metric,.estimator,.estimate,threshold,decision_rule
+recall,binary,0.963302752293578,0.5,Default
+f_meas,binary,0.9668508287292817,0.5,Default
+pr_auc,binary,0.9921413422296951,0.5,Default
+roc_auc,binary,0.9973473022926204,0.5,Default
+recall,binary,0.9706422018348624,0.4514998197555542,Youden
+f_meas,binary,0.9679780420860019,0.4514998197555542,Youden
+pr_auc,binary,0.9921413422296951,0.4514998197555542,Youden
+roc_auc,binary,0.9973473022926204,0.4514998197555542,Youden
